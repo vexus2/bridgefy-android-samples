@@ -1,0 +1,42 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bridgefy.samples.twitter">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.bridgefy.samples.twitter.IntroActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- Uncomment to launch activity automatically on boot for android-things-->
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN"/>-->
+            <!--<category android:name="android.intent.category.IOT_LAUNCHER"/>-->
+            <!--<category android:name="android.intent.category.DEFAULT"/>-->
+            <!--</intent-filter>-->
+
+        </activity>
+
+        <activity
+            android:name="com.bridgefy.samples.twitter.TimelineActivity"
+            android:parentActivityName="com.bridgefy.samples.twitter.IntroActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.bridgefy.samples.twitter.IntroActivity" />
+        </activity>
+
+        <!-- Bridgefy SDK key -->
+        <meta-data
+            android:name="com.bridgefy.sdk.API_KEY"
+            android:value="e46a2296-d416-4802-a9a2-1d213bc85c51" />
+    </application>
+</manifest>

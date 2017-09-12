@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_ios_icon.png",
+        "source": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/src/main/res/mipmap-xxhdpi/ic_ios_icon.png"
+    },
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_attach_file.png",
+        "source": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/src/main/res/mipmap-xxhdpi/ic_attach_file.png"
+    },
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_speaker_phone.png",
+        "source": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/src/main/res/mipmap-xxhdpi/ic_speaker_phone.png"
+    },
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_file_download.png",
+        "source": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/src/main/res/mipmap-xxhdpi/ic_file_download.png"
+    },
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_android_icon.png",
+        "source": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/src/main/res/mipmap-xxhdpi/ic_android_icon.png"
+    }
+]

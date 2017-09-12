@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/home/roberto/.android/build-cache/7c0c2cd74511495a5ef86c66fe89117fc21116b0/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/home/roberto/.android/build-cache/7c0c2cd74511495a5ef86c66fe89117fc21116b0/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    }
+]

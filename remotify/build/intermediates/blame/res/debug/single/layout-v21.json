@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/remotify/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/remotify/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/remotify/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/remotify/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/remotify/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/remotify/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/remotify/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/remotify/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.0.0-alpha1/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/remotify/build/intermediates/res/merged/debug/layout-v21/materialcolorpicker__layout_color_picker.xml",
+        "source": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/remotify/build/intermediates/exploded-aar/com.pes.materialcolorpicker/library/1.2.0/res/layout-v21/materialcolorpicker__layout_color_picker.xml"
+    }
+]

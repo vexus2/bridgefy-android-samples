@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/home/roberto/.android/build-cache/ed1b4566335b21fb80f001df0c536c088183a0ad/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/home/roberto/.android/build-cache/ed1b4566335b21fb80f001df0c536c088183a0ad/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/home/roberto/.android/build-cache/ed1b4566335b21fb80f001df0c536c088183a0ad/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/home/roberto/.android/build-cache/7c0c2cd74511495a5ef86c66fe89117fc21116b0/output/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/roberto/.android/build-cache/ed1b4566335b21fb80f001df0c536c088183a0ad/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/home/roberto/.android/build-cache/ed1b4566335b21fb80f001df0c536c088183a0ad/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/home/roberto/.android/build-cache/7c0c2cd74511495a5ef86c66fe89117fc21116b0/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/home/roberto/.android/build-cache/ed1b4566335b21fb80f001df0c536c088183a0ad/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/home/roberto/.android/build-cache/ed1b4566335b21fb80f001df0c536c088183a0ad/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/home/roberto/.android/build-cache/7c0c2cd74511495a5ef86c66fe89117fc21116b0/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/roberto/.android/build-cache/ed1b4566335b21fb80f001df0c536c088183a0ad/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/home/roberto/.android/build-cache/ed1b4566335b21fb80f001df0c536c088183a0ad/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/home/roberto/.android/build-cache/7c0c2cd74511495a5ef86c66fe89117fc21116b0/output/res/anim/design_fab_out.xml"
+    },
+    {
+        "merged": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/home/roberto/.android/build-cache/ed1b4566335b21fb80f001df0c536c088183a0ad/output/res/anim/abc_fade_out.xml"
+    }
+]

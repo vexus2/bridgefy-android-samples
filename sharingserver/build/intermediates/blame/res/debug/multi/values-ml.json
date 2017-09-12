@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/home/roberto/AndroidStudioProjects/bridgefy-android-samples/sharingserver/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ml/values-ml.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 100,
+                    "endOffset": 151
+                },
+                "from": {
+                    "file": "/home/roberto/.android/build-cache/ef6fd1c0a3b40f2cdea661c467fb7b604a38459d/output/res/values-ml/values-ml.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 100,
+                        "endOffset": 151
+                    }
+                }
+            }
+        ]
+    }
+]
