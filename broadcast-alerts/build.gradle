@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.3"
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
 
     defaultConfig {
         applicationId "com.bridgefy.samples.alerts"
         minSdkVersion 21
-        targetSdkVersion 25
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
 
@@ -47,13 +47,13 @@ dependencies {
     compile 'com.bridgefy:android-sdk:1.0.+'
     //this dependency is to provide android-things compatibility
     provided 'com.google.android.things:androidthings:0.4-devpreview'
-    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:appcompat-v7:26.0.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:design:26.0.1'
     compile 'com.jakewharton:butterknife:8.5.1'
     compile 'com.jakewharton:butterknife-compiler:8.5.1'
     compile 'com.jakewharton:butterknife-annotations:8.5.1'
-    compile 'com.android.support:support-v4:25.3.1'
-    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support:support-v4:26.0.1'
+    compile 'com.android.support:recyclerview-v7:26.0.1'
     testCompile 'junit:junit:4.12'
 }

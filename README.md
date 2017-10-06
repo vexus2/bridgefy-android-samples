@@ -216,8 +216,8 @@ If you are using Proguard in your project, include the following lines to your c
 
 ## Supported Devices ##
 
-As of June 2017, the following devices have been tested with Bridgefy and offer the best performance:
-
+As of October 2017, the following devices have been tested with Bridgefy and offer the best performance:
+* Google Pixel
 * Nexus 6P
 * Nexus 5X
 * Nexus 6
@@ -234,7 +234,7 @@ As of June 2017, the following devices have been tested with Bridgefy and offer 
 * Sony Xperia Z5 Compact
 * Raspbery Pi 3 (Android Things)
 
-Other devices not listed here should still work with Bridgefy but no assessment has been made regarding their performance. This list will continue to grow as we test new devices.
+Performance may depend on the Android version installed on the device. Custom roms are not officially supported. Other devices not listed here should still work with Bridgefy but no assessment has been made regarding their performance. This list will continue to grow as we test new devices.
 
 ### Contact ###
 
