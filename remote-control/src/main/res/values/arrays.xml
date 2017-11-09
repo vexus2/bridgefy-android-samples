@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string-array name="colors_array">
-        <item>Ad</item>
-        <item>Sports</item>
-        <item>Map</item>
-        <item>Concert</item>
-        </string-array>
-</resources>

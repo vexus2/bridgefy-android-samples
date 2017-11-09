@@ -32,19 +32,31 @@ This version is fine tuned for Bluetooth Low Energy (BLE) capable devices. While
 
 ## Initial Setup ##
 
-In order to include the Bridgefy SDK in your project, first add the following repository in your app's gradle file:
+In order to include the Bridgefy SDK in your project, first add the Bridgefy maven repository in your app's gradle file. You also need to make sure that your module is compatible with Java 8 (https://developer.android.com/studio/write/java8-support.html):
 
 
 
 ```java
-repositories {
-    ...
 
-    maven {
-        url "http://maven.bridgefy.com/artifactory/libs-release-local"
-        artifactUrls=["http://jcenter.bintray.com/"]
-    }
+android {
+....
+
+    repositories {
+      ...
+
+            maven {
+             url "http://maven.bridgefy.com/artifactory/libs-release-local"
+             artifactUrls=["http://jcenter.bintray.com/"]
+              }
  ....
+        }
+        
+....
+
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+    }
 }
 ```
 
@@ -53,7 +65,7 @@ repositories {
 Then, add the dependency:
 
 ```xml
-compile 'com.bridgefy:android-sdk:1.0.+'
+implementation 'com.bridgefy:android-sdk:1.0.+'
 ```
 
 ## Initialize Bridgefy ##
@@ -142,9 +154,9 @@ public void onDeviceLost(Device device) {
 
 
 
-## Sending tweets and receiving tweets ##
+## Sending Messages and receiving Messages ##
 
-In order to send tweets you will need to build a **Message** object which is basically a **HashMap** tied to a **UUID** represented as a string; this way, Bridgefy will know where to send it.
+In order to send Messages you will need to build a **Message** object which is basically a **HashMap** tied to a **UUID** represented as a string; this way, Bridgefy will know where to send it.
 
 ```java
 // Build a HashMap object
@@ -158,9 +170,9 @@ Message message = Bridgefy.createMessage(device.getUserId(), data);
 Bridgefy.sendMessage(message);
 ```
 
-You can send tweets to other devices even if they haven't been reported as connected or in-range. The Bridgefy SDK will do the best effort to deliver the message to it's recipient through intermediate devices. Message content is secured through a 256-bit encryption which is managed seamlessly for you so you don't have to worry about other users tapping into your private message.
+You can send messages to other devices even if they haven't been reported as connected or in-range. The Bridgefy SDK will do the best effort to deliver the message to it's recipient through intermediate devices. Message content is secured through a 256-bit encryption which is managed seamlessly for you so you don't have to worry about other users tapping into your private message.
 
-You can also send public tweets which will be propagated to all nearby devices. Those are even easier to send:
+You can also send public messages which will be propagated to all nearby devices. Those are even easier to send:
 
 ```java
 // Create a Message object with just the HashMap as a parameter
@@ -168,7 +180,7 @@ Message broadcastMessage = Bridgefy.createMessage(data);
 Bridgefy.sendBroadcastMessage(broadcastMessage);
 ```
 
-The MessageListener callback will inform you of new tweets that you have received. Check the Javadoc documentation for the full list of method callbacks.
+The MessageListener callback will inform you of new messages that you have received. Check the Javadoc documentation for the full list of method callbacks.
 
   
 ```java
