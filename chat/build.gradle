@@ -1,11 +1,14 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 26
     buildToolsVersion "26.0.2"
 
     defaultConfig {
-        applicationId "com.bridgefy.samples.chat"
+        applicationId "jp.crinoid.android"
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 1
@@ -57,4 +60,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     implementation 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    compile "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+    testCompile "org.jetbrains.kotlin:kotlin-test:$kotlin_version"
+    testCompile "org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version"
 }

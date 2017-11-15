@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.bridgefy.samples.chat.MainActivity">
+    tools:context="jp.crinoid.android.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar"
@@ -34,7 +34,7 @@
             xmlns:app="http://schemas.android.com/apk/res-auto"
             xmlns:tools="http://schemas.android.com/tools"
             android:id="@+id/peer_list"
-            android:name="com.bridgefy.samples.chat.PeerListFragment"
+            android:name="jp.crinoid.android.PeerListFragment"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="10"
