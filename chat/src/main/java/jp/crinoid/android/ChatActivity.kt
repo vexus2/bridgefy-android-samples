@@ -142,22 +142,22 @@ class ChatActivity : AppCompatActivity() {
                 Message.OUTGOING_MESSAGE -> messageView = LayoutInflater.from(viewGroup.context).inflate(R.layout.message_row_outgoing, viewGroup, false)
             }
 
-            return MessageViewHolder(messageView)
+            return MessageViewHolder(messageView!!)
         }
 
         override fun onBindViewHolder(messageHolder: MessageViewHolder, position: Int) {
-            messageHolder.setMessage(messages[position])
+            messageHolder.settingMessage(messages[position])
         }
 
         internal inner class MessageViewHolder(view: View) : RecyclerView.ViewHolder(view) {
             val txtMessage: TextView
-            var message: Message
+            lateinit var message: Message
 
             init {
                 txtMessage = view.findViewById<View>(R.id.txtMessage) as TextView
             }
 
-            fun setMessage(message: Message) {
+            fun settingMessage(message: Message) {
                 this.message = message
 
                 if (message.direction == Message.INCOMING_MESSAGE && conversationId == BROADCAST_CHAT) {

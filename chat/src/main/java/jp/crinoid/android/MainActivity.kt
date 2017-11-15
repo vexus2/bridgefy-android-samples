@@ -254,20 +254,20 @@ class MainActivity : AppCompatActivity() {
         }
 
         override fun onBindViewHolder(peerHolder: PeerViewHolder, position: Int) {
-            peerHolder.setPeer(peers[position])
+            peerHolder.settingPeer(peers[position])
         }
 
         internal inner class PeerViewHolder(view: View) : RecyclerView.ViewHolder(view), View.OnClickListener {
 
             val mContentView: TextView
-            var peer: Peer
+            lateinit var peer: Peer
 
             init {
                 mContentView = view.findViewById<View>(R.id.peerName) as TextView
                 view.setOnClickListener(this)
             }
 
-            fun setPeer(peer: Peer) {
+            fun settingPeer(peer: Peer) {
                 this.peer = peer
 
                 when (peer.deviceType) {
